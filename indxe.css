@@ -1,0 +1,126 @@
+.alllogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+body {
+  background-color: #ffcc00;
+}
+
+.logo {
+  size: 190px;
+  margin: 65px 0px 50px 0px;
+}
+.ssmlogo {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: right 20px;
+  width: 200px;
+  height: 30px;
+  margin: 65px 0px 50px 0px;
+
+  color: #ffcc02;
+  gap: 10px;
+}
+
+.ssmlogo > div {
+  display: flex;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+nav {
+  font-size: 15px;
+  background-color: blue;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  gap: 100px;
+}
+
+.main-content {
+  width: 100%;
+  height: 90%;
+}
+
+.carousel-indicators {
+  bottom: -50px !important;
+}
+
+.carousel-indicators > button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50% !important;
+  background-color: black !important;
+}
+
+.slide-text-wrap {
+  position: absolute;
+  bottom: auto;
+  right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide-text {
+  height: 130px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 25px 25px 25px;
+  text-align: center;
+}
+
+.slide-text > a {
+  display: block;
+  color: white !important;
+  padding: 8px 0 8px 0;
+  background: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+.slide-text > .header {
+  font-size: x-large;
+}
+
+.slide-text > .header::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: white;
+  margin-bottom: 5px;
+}
+
+.slide-text > .text::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: white;
+  margin-top: 5px;
+}
+
+.nav-ite > li {
+  background-color: black !important;
+}
+
+.navbar-collapse > ul > li {
+  margin-right: 30px !important;
+}
+
+.img-fluid {
+  width: 1300px !important;
+  height: auto !important;
+}
